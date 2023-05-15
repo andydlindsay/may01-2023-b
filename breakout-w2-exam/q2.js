@@ -18,7 +18,28 @@ Examples:
 */
 
 const countWhich = function(list, cb) {
+  if (!Array.isArray(list)) {
+    return false;
+  }
 
+  return list.filter(cb).length;
+
+  // // set aside space in memory to store how many elements returned truthy
+  // let count = 0;
+
+  // // loop through the provided array
+  // list.forEach((element) => {
+  //   // call the provided callback with the element AND capture the return value
+  //   const returnVal = cb(element);
+
+  //   // if the return value is truthy, increment our count
+  //   if (returnVal) {
+  //     count += 1;
+  //   }
+  // });
+
+  // // return the count of truthy elements
+  // return count;
 };
 
 // Don't change below:
