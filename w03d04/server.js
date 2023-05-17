@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const cookieParser = require('cookie-parser');
 
 const app = express();
-const PORT = 8001;
+const port = 8001;
 
 // Configuration
 app.set('view engine', 'ejs');
@@ -133,6 +133,6 @@ app.post('/logout', (req, res) => {
 });
 
 // Start the server
-app.listen(PORT, () => {
-  console.log(`App is listening on port: ${PORT}`);
+app.listen(port, () => {
+  console.log(`App is listening on port: ${port}`);
 });
