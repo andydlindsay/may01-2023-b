@@ -5,6 +5,7 @@ const foodItems = [
     price: 7.99,
     tagline: "Crispy and Spicy!",
     calories: 750,
+    onSale: true,
   },
   {
     id: "def",
@@ -12,6 +13,7 @@ const foodItems = [
     price: 6.99,
     tagline: "Juicy and Cheesy!",
     calories: 850,
+    onSale: false
   },
   {
     id: "ghi",

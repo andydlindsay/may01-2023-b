@@ -9,6 +9,7 @@ const foodItems = require('./data/food-items');
 // middleware
 app.use(morgan('dev'));
 app.use(express.urlencoded({ extended: false }));
+app.use(express.static('public'));
 
 // routes
 app.get('/food-items', (req, res) => {

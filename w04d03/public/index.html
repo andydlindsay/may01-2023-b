@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js" integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- <script src="ajax.js"></script> -->
+
+  <script src="client.js"></script>
+
+  <title>Food App</title>
+</head>
+<body>
+  <h2>Our Food App!</h2>
+
+  <div>
+    <form id="new-food-item">
+      <label>Name:</label>
+      <input name="name" />
+      <br/>
+      <label>Price:</label>
+      <input name="price" />
+      <br/>
+      <label>Tagline:</label>
+      <input name="tagline" />
+      <br/>
+      <label>Calories:</label>
+      <input name="calories" />
+      <br/>
+      <button type="submit">Create!</button>
+    </form>
+  </div>
+
+  <section id="food-item-container"></section>
+
+</body>
+</html>
