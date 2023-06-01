@@ -39,33 +39,5 @@ const myRouter = require('./routes/my-router.js');
 app.use('/my-routes', myRouter);
 ```
 
-### Returning a Function
-* We can also export a function that returns our router object
-* This allows us to take in a parameter or dependency
-
-```js
-// in my-router.js
-// export a function that takes in the database connection
-module.exports = (db) => {
-  router.get...
-
-  router.post...
-
-  return router;
-};
-```
-
-* We then have to invoke the function in our server and remember to pass in any dependencies
-* This works because the function returns the router object
-
-```js
-// in server.js
-const dbConnection = require('./db/connection.js');
-
-const myRouterFn = require('./routes/my-router.js');
-
-app.use('/my-routes', myRouterFn(dbConnection));
-```
-
 ### Useful Links
 * [Express Router docs](https://expressjs.com/en/4x/api.html#router)
