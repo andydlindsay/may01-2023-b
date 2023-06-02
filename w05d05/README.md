@@ -41,21 +41,28 @@
 - Remember RESTful conventions (they make it much easier)
 
 ### REST Examples  
-Browse  GET   /users  
-Read    GET   /users/:id  
-Edit    POST  /users/:id  
-Add     POST  /users  
-Delete  POST  /users/:id/delete  
 
-Browse  GET     /users  
-Read    GET     /users/:id  
-Edit    PATCH   /users/:id  
-Add     POST    /users  
-Delete  DELETE  /users/:id  
+| **Method** | **Path** | **Purpose** |
+|:---|:---|:---|
+| GET | /resources | Retrieve all of a resource (Browse) |
+| GET | /resources/:id | Retrieve a particular resource (Read) |
+| POST | /resources/:id | Update a resource (Edit) |
+| POST | /resources | Create a new resource (Add) |
+| POST | /resources/:id/delete | Delete an existing resource (Delete) |
 
-PUT - replace a resource completely  
-PATCH - replaces a piece of a resource  
-DELETE - deletes a resource  
+#### Using additional HTTP verbs
+* `PUT` - replace a resource completely  
+* `PATCH` - replaces a piece of a resource  
+* `DELETE` - deletes a resource  
+
+| **Method** | **Path** | **Purpose** |
+|:---|:---|:---|
+| GET | /resources | Retrieve all of a resource (Browse) |
+| GET | /resources/:id | Retrieve a particular resource (Read) |
+| PATCH | /resources/:id | Update a resource (Edit) |
+| POST | /resources | Create a new resource (Add) |
+| DELETE | /resources/:id | Delete an existing resource (Delete) |
+
 
 ### MVP vs MVD
 - There is a concept in development of an MVP, the Minimum Viable Product
