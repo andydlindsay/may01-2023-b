@@ -63,7 +63,6 @@
 | POST | /resources | Create a new resource (Add) |
 | DELETE | /resources/:id | Delete an existing resource (Delete) |
 
-
 ### MVP vs MVD
 - There is a concept in development of an MVP, the Minimum Viable Product
 - An MVP has just enough features to be useful to a user
