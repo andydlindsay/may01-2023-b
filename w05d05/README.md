@@ -40,22 +40,22 @@
 - Once you know the resources that you'll have, write out the routes that you'll need to perform BREAD operations on those resources
 - Remember RESTful conventions (they make it much easier)
 
-### REST Examples
-Browse  GET   /users
-Read    GET   /users/:id
-Edit    POST  /users/:id
-Add     POST  /users
-Delete  POST  /users/:id/delete
+### REST Examples  
+Browse  GET   /users  
+Read    GET   /users/:id  
+Edit    POST  /users/:id  
+Add     POST  /users  
+Delete  POST  /users/:id/delete  
 
-Browse  GET     /users
-Read    GET     /users/:id
-Edit    PATCH   /users/:id
-Add     POST    /users
-Delete  DELETE  /users/:id
+Browse  GET     /users  
+Read    GET     /users/:id  
+Edit    PATCH   /users/:id  
+Add     POST    /users  
+Delete  DELETE  /users/:id  
 
-PUT - replace a resource completely
-PATCH - replaces a piece of a resource
-DELETE - deletes a resource
+PUT - replace a resource completely  
+PATCH - replaces a piece of a resource  
+DELETE - deletes a resource  
 
 ### MVP vs MVD
 - There is a concept in development of an MVP, the Minimum Viable Product
