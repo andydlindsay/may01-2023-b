@@ -11,3 +11,4 @@
 * [BREAKOUT - Express Router](/breakout-express-router)
 * [W07D05 - React Review](/w07d05)
 * [W08D01 - Data Fetching & Other Side Effects](/w08d01)
+* [W08D04 - End-to-End Testing with Cypress](/w08d04)
