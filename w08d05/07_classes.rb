@@ -40,4 +40,3 @@ p my_car.year
 my_car.year= '2020'
 
 p my_car
-

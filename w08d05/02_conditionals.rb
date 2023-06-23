@@ -18,7 +18,6 @@ end
 #   puts "please login to continue"
 # end
 
-
 num = 10
 
 puts "num is 10" if num == 10
@@ -26,4 +25,3 @@ puts "num is 10" if num == 10
 sunny = false
 
 puts "take an umbrella" unless sunny
-

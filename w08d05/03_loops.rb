@@ -1,6 +1,14 @@
 # a block of code is denoted with do..end
 i = 0
 
+# def say_hello
+
+# end
+
+# loop do
+#   say_hello()
+# end
+
 # loop do
 #   puts "hello #{i}"
 #   i += 1

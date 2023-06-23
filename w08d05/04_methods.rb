@@ -9,5 +9,4 @@ end
 # say_hello("alice")
 return_val = say_hello "bob", 50
 
-
 puts "return_val is #{return_val}"
