@@ -1,0 +1,13 @@
+<h1>All the dogs from breed <%= @breed.breed %>!</h1>
+
+<%= link_to 'see the breeds', breeds_path %>
+
+<% @dogs.each do |dog| %>
+  <div class="dog">
+    <h2>Name: <%= dog.name %></h2>
+    <h2>Sound: <%= dog.sound %></h2>
+    <h2>Age: <%= dog.age %></h2>
+    <h2>Size: <%= dog.size %></h2>
+    <h2>Breed: <%= dog.breed.breed %></h2>
+  </div>
+<% end %>
